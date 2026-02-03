@@ -4,11 +4,8 @@ const message = document.getElementById("loveMessage");
 const music = document.getElementById("bgMusic");
 
 const voices = [
-  "Arre nahi!",
-  "Pakad ke dikha 😜",
-  "Galat button hai 😂",
-  "YES dabao na 😏"
-];
+  "Galat button hai Ye Bewkoof",
+  ];
 
 function speak(text) {
   const u = new SpeechSynthesisUtterance(text);
